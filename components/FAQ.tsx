@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { ChevronDownIcon, ChevronUpIcon } from 'lucide-react';
 
 const faqItems = [
   {
@@ -130,12 +131,9 @@ const FAQ = () => {
                 <div className="flex items-center">
                   <motion.div 
                     className={`flex items-center justify-center w-8 h-8 rounded-full mr-4 ${openIndex === index ? 'bg-green-500 text-white' : 'bg-green-100 text-green-500'}`}
-                    animate={{ rotate: openIndex === index ? 180 : 0 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
+                    {openIndex !== index ? <ChevronDownIcon className="h-5 w-5"/> : <ChevronUpIcon className="h-5 w-5"/> }
                   </motion.div>
                   <span className={`font-medium text-lg ${openIndex === index ? 'text-green-600' : 'text-gray-800'}`}>
                     {item.question}

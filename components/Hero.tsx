@@ -38,7 +38,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 0.5 }}
-            className="absolute -top-12 -left-6 bg-green-500 text-white py-2 px-4 rounded-full text-sm font-medium shadow-lg"
+            className="absolute -top-1 -left-6 bg-green-500 text-white py-2 px-4 rounded-full text-sm font-medium shadow-lg"
           >
             <motion.span
               animate={{ scale: [1, 1.1, 1] }}
@@ -50,7 +50,7 @@ export default function Hero() {
           </motion.div>
 
           <motion.h1 
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6 leading-tight"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6 pt-8 leading-tight"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}

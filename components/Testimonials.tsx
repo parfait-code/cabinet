@@ -47,7 +47,7 @@ const Testimonials = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Ce qu'en disent nos utilisateurs</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Ce qu&apos;en disent nos utilisateurs</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">Des milliers de Camerounais ont déjà adopté JapapApp. Découvrez leurs expériences.</p>
         </motion.div>
         
@@ -66,7 +66,7 @@ const Testimonials = () => {
                   {testimonials[currentIndex].avatar}
                 </div>
                 <div className="flex-1">
-                  <p className="text-gray-700 text-lg md:text-xl italic mb-6">"{testimonials[currentIndex].content}"</p>
+                  <p className="text-gray-700 text-lg md:text-xl italic mb-6">&quot;{testimonials[currentIndex].content}&quot;</p>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-800">{testimonials[currentIndex].name}</h4>
                     <p className="text-gray-600">{testimonials[currentIndex].role}</p>

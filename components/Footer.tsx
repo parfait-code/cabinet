@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import { motion } from 'framer-motion';
-import { AppleIcon, ChevronRightIcon, FacebookIcon, InstagramIcon, LinkedinIcon, LocateIcon, MailIcon, PhoneIcon, TwitterIcon } from 'lucide-react';
+import { ChevronRightIcon, FacebookIcon, InstagramIcon, LinkedinIcon, LocateIcon, MailIcon, PhoneIcon, TwitterIcon } from 'lucide-react';
 import Image from 'next/image';
 
 const Footer = () => {
@@ -226,7 +226,7 @@ const Footer = () => {
                 whileHover={{ scale: 1.05, backgroundColor: "#15803d" }}
                 whileTap={{ scale: 0.95 }}
               >
-                S'abonner
+                S&apos;abonner
               </motion.button>
             </form>
           </div>

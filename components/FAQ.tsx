@@ -85,7 +85,7 @@ const FAQ = () => {
             Assistance
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Questions fréquentes</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">Tout ce que vous devez savoir sur JapapApp pour une utilisation optimale de l'application.</p>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">Tout ce que vous devez savoir sur JapapApp pour une utilisation optimale de l&apos;application.</p>
         </motion.div>
         
         <div className="space-y-5">
@@ -214,7 +214,7 @@ const FAQ = () => {
           
           <div className="relative z-10">
             <h3 className="text-xl font-semibold text-gray-800 mb-3">Une question sans réponse ?</h3>
-            <p className="text-gray-600 mb-5">Notre équipe de support est disponible pour vous aider avec n'importe quelle question.</p>
+            <p className="text-gray-600 mb-5">Notre équipe de support est disponible pour vous aider avec n&apos;importe quelle question.</p>
             
             <motion.a 
               href="mailto:support@japapapp.cm"

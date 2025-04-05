@@ -46,7 +46,7 @@ const FAQ = () => {
         duration: 2,
         ease: "easeInOut",
         repeat: Infinity,
-        repeatType: "reverse" as "reverse"
+        repeatType: "reverse" as const  
       }
     }
   };

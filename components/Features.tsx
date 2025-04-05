@@ -61,7 +61,7 @@ const Features: React.FC = () => {
         duration: 2,
         ease: "easeInOut",
         repeat: Infinity,
-        repeatType: "reverse" as "reverse"
+        repeatType: "reverse" as const  
       }
     }
   };
